@@ -38,6 +38,15 @@ jobs:
 #        #windows-graphviz-version: '2.49.3'
     - name: Build with Maven
       run: ./mvnw -B --file pom.xml
+    - name: Check Files
+      run: |
+      ls target/plantuml
+      cat target/plantuml/Automat.svg
+      echo "======================================"
+      cat target/plantuml/Klassendiagram.svg
+
+
+
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
