@@ -1,3 +1,4 @@
+@startuml
 skinparam style strictuml
 class Façade {
  doSomething()
@@ -18,3 +19,4 @@ doSomething() {
 }
 end note
 Façade .. N2
+@enduml
