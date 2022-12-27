@@ -35,11 +35,12 @@
                 <artifactId>plantuml-maven-plugin</artifactId>
                 <version>1.5.2</version>
                 <configuration>
+                    <format>svg</format>
                     <truncatePattern>src/main/*</truncatePattern>
                     <sourceFiles>
                         <directory>${basedir}</directory>
                         <includes>
-                            <include>src/main/plantuml/**/*.txt</include>
+                            <include>src/main/plantuml/**/*.pu</include>
                         </includes>
                     </sourceFiles>
                 </configuration>
@@ -47,7 +48,7 @@
                     <dependency>
                         <groupId>net.sourceforge.plantuml</groupId>
                         <artifactId>plantuml</artifactId>
-                        <version>1.2020.19</version>
+                        <version>1.2022.14</version>
                         <scope>runtime</scope>
                     </dependency>
                 </dependencies>
