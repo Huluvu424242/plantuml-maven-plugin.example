@@ -42,7 +42,7 @@ jobs:
       run: |
         ls target/plantuml
         cat target/plantuml/Automat.svg
-        echo "======================================"
+        echo -e "\n\n======================================\n\n"
         cat target/plantuml/Klassendiagram.svg
 
 
