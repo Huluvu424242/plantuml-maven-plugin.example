@@ -26,6 +26,11 @@
         <defaultGoal>clean com.github.funthomas424242:plantuml-maven-plugin:generate</defaultGoal>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-wrapper-plugin</artifactId>
+                <version>3.1.1</version>
+            </plugin>
+            <plugin>
                 <groupId>com.github.funthomas424242</groupId>
                 <artifactId>plantuml-maven-plugin</artifactId>
                 <version>1.5.2</version>
