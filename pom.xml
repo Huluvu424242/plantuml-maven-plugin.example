@@ -29,7 +29,7 @@
     </pluginRepository>
 </pluginRepositories>
     <build>
-        <defaultGoal>clean com.github.huluvu424242:plantuml-maven-plugin:generate</defaultGoal>
+        <defaultGoal>clean com.github.funthomas424242:plantuml-maven-plugin:generate</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
