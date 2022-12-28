@@ -14,6 +14,27 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Huluvu424242/plantuml-maven-plugin</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Huluvu424242/plantuml-maven-plugin</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <dependencies>
         <dependency>
             <groupId>com.github.funthomas424242</groupId>
@@ -21,13 +42,7 @@
             <version>1.5.3.test1</version>
         </dependency>
     </dependencies>
-<pluginRepositories>
-    <pluginRepository>
-        <id>github</id>
-        <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/huluvu424242/plantuml-maven-plugin</url>
-    </pluginRepository>
-</pluginRepositories>
+
     <build>
         <defaultGoal>clean com.github.funthomas424242:plantuml-maven-plugin:generate</defaultGoal>
         <plugins>
