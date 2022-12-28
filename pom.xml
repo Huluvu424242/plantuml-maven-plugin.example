@@ -21,7 +21,13 @@
             <version>1.5.3.test2</version>
         </dependency>
     </dependencies>
-
+<pluginRepositories>
+    <pluginRepository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/octocat/hello-world</url>
+    </pluginRepository>
+</pluginRepositories>
     <build>
         <defaultGoal>clean com.github.huluvu424242:plantuml-maven-plugin:generate</defaultGoal>
         <plugins>
