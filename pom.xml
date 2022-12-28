@@ -31,9 +31,9 @@
                 <version>3.1.1</version>
             </plugin>
             <plugin>
-                <groupId>com.github.funthomas424242</groupId>
+                <groupId>com.github.huluvu424242</groupId>
                 <artifactId>plantuml-maven-plugin</artifactId>
-                <version>1.5.2</version>
+                <version>1.5.3.test2</version>
                 <configuration>
                     <format>svg</format>
                     <truncatePattern>src/main/*</truncatePattern>
