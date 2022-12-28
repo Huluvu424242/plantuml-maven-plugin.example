@@ -16,14 +16,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.funthomas424242</groupId>
+            <groupId>com.github.huluvu424242</groupId>
             <artifactId>plantuml-maven-plugin</artifactId>
-            <version>1.5.2</version>
+            <version>1.5.3.test2</version>
         </dependency>
     </dependencies>
 
     <build>
-        <defaultGoal>clean com.github.funthomas424242:plantuml-maven-plugin:generate</defaultGoal>
+        <defaultGoal>clean com.github.huluvu424242:plantuml-maven-plugin:generate</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
